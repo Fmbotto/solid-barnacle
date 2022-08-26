@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class Main {
     @RequestMapping("/")
     String home() {
-        return "Mi primer api felix botto 
-            
-            realizando reto de mi primera pagina web";
+        return "Mi primer api felix botto";
     }
     
     @RequestMapping("/prueba")
